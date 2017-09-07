@@ -1,0 +1,66 @@
+body{
+  font-family: helvetica,sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+h1, #header nav ul li a, #subheader h3, #footer_copy, #footer{
+    color:white;
+}
+#header h1{
+  font-size: 70px;
+  padding: 0px 0px 0px 12px;
+  margin: 0;
+}
+#header nav ul{
+  margin: 0;
+  padding: 0;
+}
+#header nav ul li a{
+  padding: 4px;
+  font-size: 18px;
+  display: block;
+}
+
+#header, #subheader h2, h3{
+  font-weight: bold;
+}
+#header, #subheader{
+  background: #ffffff url("/Users/Bouyea1/Desktop/projects/broadway/resources/images/index.png") no-repeat right top;
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 23px;
+}
+p{
+  font-size: 14px;
+}
+#footer, #footer_copy p{
+  font-size: 11px;
+  background-color: dimgray;
+}
+#footer_copy p{
+
+    float: left;
+    padding: 0px 2px;
+    margin: auto;
+    text-decoration: none;
+    float: left;
+}
+#footer ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: dimgray;
+  list-style-type: none;
+}
+#footer ul li {
+  float: left;
+
+}
+#footer ul li a{
+  display: block;
+  padding: 0px 2px;
+  text-decoration: none;
+}
