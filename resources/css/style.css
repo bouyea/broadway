@@ -25,7 +25,7 @@ h1, #header nav ul li a, #subheader h3, #footer_copy, #footer ul li a{
   font-weight: bold;
 }
 #header, #subheader{
-  background-image: url('https://github.com/bouyea/broadway/blob/master/resources/images/index.png');
+  background-image: url('/resources/images/index.png');
   background-repeat: no-repeat;
 }
 h2{
@@ -61,6 +61,7 @@ p{
 
 }
 #footer ul li a{
+  color: white;
   display: block;
   padding: 0px 2px;
   text-decoration: none;
