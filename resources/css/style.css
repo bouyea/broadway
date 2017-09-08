@@ -25,7 +25,7 @@ h1, #header nav ul li a, #subheader h3, #footer_copy, #footer ul li a{
   font-weight: bold;
 }
 #header, #subheader{
-  background-image: url("https://github.com/bouyea/broadway/tree/master/resources/images/index.png");
+  background-image: url("https://raw.githubusercontent.com/bouyea/broadway/master/resources/images/index.png");
   background-position: center;
   background-size: cover;
 }
