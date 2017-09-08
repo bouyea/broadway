@@ -3,7 +3,7 @@ body{
   font-size: 14px;
   text-align: center;
 }
-h1, #header nav ul li a, #subheader h3, #footer_copy, #footer{
+h1, #header nav ul li a, #subheader h3, #footer_copy, #footer ul li a{
     color:white;
 }
 #header h1{
@@ -25,7 +25,8 @@ h1, #header nav ul li a, #subheader h3, #footer_copy, #footer{
   font-weight: bold;
 }
 #header, #subheader{
-  background: url('https://github.com/bouyea/broadway/blob/master/resources/images/index.png') black no-repeat right top;
+  background-image: url('https://github.com/bouyea/broadway/blob/master/resources/images/index.png');
+  background-repeat: no-repeat;
 }
 h2{
   font-size: 32px;
