@@ -13,7 +13,7 @@
 #subheader, #footer, .copywright, .foot_nav li a{
   font-size: 11px;
 }
-.maincolor, .copywright, .title, .mainlist li a{
+.maincolor, .mainlist li a, .copywright, .title{
     color:white;
 }
 .title{
