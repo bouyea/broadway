@@ -52,7 +52,7 @@
   color: white;
   display: block;
   padding: 0px 2px;
-  text-decoration: none;
+  text-decoration:underline;
 }
 body{
   font-family: helvetica,sans-serif;
