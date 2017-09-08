@@ -13,7 +13,7 @@
 #subheader, #footer, .copywright, .foot_nav li a{
   font-size: 11px;
 }
-.maincolor, .copywright, .header, .mainlist li a{
+.maincolor, .copywright, .title, .mainlist li a{
     color:white;
 }
 .title{
@@ -34,7 +34,6 @@
   padding: 0px 2px;
   margin: 6px 0px 0px 0px;
   float:left;
-  text-align: left;
   text-decoration: none;
 }
 .foot_nav{
