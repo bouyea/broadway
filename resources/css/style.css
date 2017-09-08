@@ -3,24 +3,23 @@ body{
   font-size: 14px;
   text-align: center;
 }
-h1, #header nav ul li a, #subheader h3, #footer_copy, #footer ul li a{
+.maincolor, .copy, .header, .mainlist li a{
     color:white;
 }
-#header h1{
+.header{
   font-size: 70px;
   padding: 0px 0px 0px 12px;
   margin: 0;
 }
-#header nav ul{
+.mainlist{
   margin: 0;
   padding: 0;
 }
-#header nav ul li a{
+.mainlist li a{
   padding: 4px;
   font-size: 18px;
   display: block;
 }
-
 #header, #subheader h2, h3{
   font-weight: bold;
 }
@@ -38,33 +37,31 @@ h3{
 p{
   font-size: 14px;
 }
-#footer, #footer_copy{
+#footer{
   background-color: dimgray;
   background-size: cover;
 }
-#subheader, #footer ul li a, #footer_copy p{
+#subheader, #footer{
   font-size: 11px;
 }
-#footer_copy p{
-
+.copy {
     float: left;
     padding: 0px 2px;
     margin: auto;
     text-decoration: none;
     float: left;
 }
-#footer ul{
+.foot_nav{
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: dimgray;
   list-style-type: none;
 }
-#footer ul li {
+.foot_nav li {
   float: left;
-
 }
-#footer ul li a{
+.foot_nav li a{
   color: white;
   display: block;
   padding: 0px 2px;
