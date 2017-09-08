@@ -1,12 +1,22 @@
-body{
-  font-family: helvetica,sans-serif;
-  font-size: 14px;
-  text-align: center;
+#header, #subheader h2, h3{
+  font-weight: bold;
 }
-.maincolor, .copy, .header, .mainlist li a{
+#header, #subheader{
+  background-image: url("https://raw.githubusercontent.com/bouyea/broadway/master/resources/images/index.png");
+  background-position: center;
+  background-size: cover;
+}
+#footer{
+  background-color: dimgray;
+  background-size: cover;
+}
+#subheader, #footer, .copywright, .foot_nav li a{
+  font-size: 11px;
+}
+.maincolor, .copywright, .header, .mainlist li a{
     color:white;
 }
-.header{
+.title{
   font-size: 70px;
   padding: 0px 0px 0px 12px;
   margin: 0;
@@ -20,13 +30,34 @@ body{
   font-size: 18px;
   display: block;
 }
-#header, #subheader h2, h3{
-  font-weight: bold;
+.copywright{
+  padding: 0px 2px;
+  margin: 6px 0px 0px 0px;
+  float:left;
+  text-align: left;
+  text-decoration: none;
 }
-#header, #subheader{
-  background-image: url("https://raw.githubusercontent.com/bouyea/broadway/master/resources/images/index.png");
-  background-position: center;
-  background-size: cover;
+.foot_nav{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: dimgray;
+  list-style-type: none;
+}
+.foot_nav li{
+  float: left;
+}
+.foot_nav li a{
+  font-size: 18px;
+  color: white;
+  display: block;
+  padding: 0px 2px;
+  text-decoration: none;
+}
+body{
+  font-family: helvetica,sans-serif;
+  font-size: 14px;
+  text-align: center;
 }
 h2{
   font-size: 32px;
@@ -36,34 +67,4 @@ h3{
 }
 p{
   font-size: 14px;
-}
-#footer{
-  background-color: dimgray;
-  background-size: cover;
-}
-#subheader, #footer{
-  font-size: 11px;
-}
-.copy {
-    float: left;
-    padding: 0px 2px;
-    margin: auto;
-    text-decoration: none;
-    float: left;
-}
-.foot_nav{
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: dimgray;
-  list-style-type: none;
-}
-.foot_nav li {
-  float: left;
-}
-.foot_nav li a{
-  color: white;
-  display: block;
-  padding: 0px 2px;
-  text-decoration: none;
 }
