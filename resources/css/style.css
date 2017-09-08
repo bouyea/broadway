@@ -25,8 +25,9 @@ h1, #header nav ul li a, #subheader h3, #footer_copy, #footer ul li a{
   font-weight: bold;
 }
 #header, #subheader{
-  background-image: url('/resources/images/index.png');
-  background-repeat: no-repeat;
+  background-image: url("https://github.com/bouyea/broadway/tree/master/resources/images/index.png");
+  background-position: center;
+  background-size: cover;
 }
 h2{
   font-size: 32px;
@@ -37,7 +38,7 @@ h3{
 p{
   font-size: 14px;
 }
-#footer, #footer_copy p{
+#subheader, #footer_copy p{
   font-size: 11px;
   background-color: dimgray;
 }
