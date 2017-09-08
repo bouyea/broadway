@@ -38,9 +38,12 @@ h3{
 p{
   font-size: 14px;
 }
+#footer, #footer_copy{
+  background-color: dimgray;
+  background-size: cover;
+}
 #subheader, #footer ul li a, #footer_copy p{
   font-size: 11px;
-  background-color: dimgray;
 }
 #footer_copy p{
 
