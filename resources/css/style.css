@@ -10,10 +10,10 @@
   background-color: dimgray;
   background-size: cover;
 }
-#subheader, #footer, .copywright, .foot_nav li a{
+#subheader, #footer .copywright{
   font-size: 11px;
 }
-.maincolor, .mainlist li a, .copywright, .title{
+.maincolor, .mainlist li a, #footer .copywright, .title, #footer .foot_nav li a{
     color:white;
 }
 .title{
@@ -32,7 +32,7 @@
 }
 .copywright{
   padding: 0px 2px;
-  margin: 6px 0px 0px 0px;
+  margin: 4px 0px 0px 0px;
   float:left;
   text-decoration: none;
 }
@@ -48,7 +48,6 @@
 }
 .foot_nav li a{
   font-size: 18px;
-  color: white;
   display: block;
   padding: 0px 2px;
   text-decoration:underline;
